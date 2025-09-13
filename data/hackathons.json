@@ -1,0 +1,18 @@
+{
+  "AY23": {
+    "title": "Hackathon with Micron",
+    "description": "Details about the AY23 hackathon with Micron.",
+    "images": [
+      "img/hackathons/AY23/hack1.jpg",
+      "img/hackathons/AY23/hack2.jpg"
+    ]
+  },
+  "AY24": {
+    "title": "Hackathon with MedTech Society",
+    "description": "Details about the AY24 hackathon with MedTech Society.",
+    "images": [
+      "img/hackathons/AY24/hack1.jpg",
+      "img/hackathons/AY24/hack2.jpg"
+    ]
+  }
+}

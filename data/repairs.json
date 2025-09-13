@@ -1,0 +1,23 @@
+{
+  "Laptops": {
+    "description": "Various laptop repairs including screen replacements, battery issues, and software fixes.",
+    "images": [
+      "img/repairs/laptops/laptop1.jpg",
+      "img/repairs/laptops/laptop2.jpg"
+    ]
+  },
+  "Keyboards": {
+    "description": "Keyboard repairs including key replacements, cleaning, and soldering.",
+    "images": [
+      "img/repairs/keyboards/keyboard1.jpg",
+      "img/repairs/keyboards/keyboard2.jpg"
+    ]
+  },
+  "Mice": {
+    "description": "Mouse repairs including button fixes, wheel replacements, and cleaning.",
+    "images": [
+      "img/repairs/mice/mouse1.jpg",
+      "img/repairs/mice/mouse2.jpg"
+    ]
+  }
+}

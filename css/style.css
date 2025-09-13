@@ -1,0 +1,189 @@
+/* ==========================
+   Variables (Color Palette)
+========================== */
+:root {
+  --orange: #FF7F00;
+  --dark-blue: #191B42;
+  --green: #399654;
+  --black: #000000;
+  --white: #FDFCFD;
+}
+
+/* ==========================
+   Global Reset
+========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: var(--white);
+  color: var(--black);
+  line-height: 1.6;
+}
+
+/* ==========================
+   Navigation Bar
+========================== */
+#main-nav {
+  background: var(--dark-blue);
+  padding: 0.5rem 1rem;
+  min-height: 50px;       /* ensures header is visible even before JS loads */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#main-nav li {
+  margin: 0 1rem;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background 0.3s, color 0.3s;
+}
+
+#main-nav a:hover,
+#main-nav a.active {
+  background: var(--orange);
+  color: var(--black);
+  border-radius: 4px;
+}
+
+/* ==========================
+   Cover Section
+========================== */
+.cover {
+  height: 80vh;
+  background: linear-gradient(to bottom, var(--dark-blue), var(--green));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.cover h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.cover p {
+  font-size: 1.2rem;
+}
+
+/* ==========================
+   Page Content
+========================== */
+main.tab-content {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main.tab-content h2 {
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+main.tab-content p {
+  margin-bottom: 1rem;
+}
+
+/* ==========================
+   Images in Content
+========================== */
+main.tab-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+  border: 1px solid var(--dark-blue);
+}
+
+/* ==========================
+   Social / Footer
+========================== */
+footer.social {
+  text-align: center;
+  padding: 2rem;
+  background: var(--black);
+  color: var(--white);
+}
+
+footer.social a {
+  margin: 0 1rem;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+footer.social a:hover {
+  color: var(--orange);
+}
+
+/* ==========================
+   Responsive
+========================== */
+@media (max-width: 768px) {
+  .cover h1 {
+    font-size: 3rem;
+  }
+
+  #main-nav a {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  main.tab-content {
+    padding: 1rem;
+  }
+}
+
+/* ==========================
+   Exco Section
+========================== */
+
+.department-section {
+  margin: 2rem 0;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.member-card {
+  text-align: center;
+}
+
+.member-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--dark-blue);
+}
+
+.member-card p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}

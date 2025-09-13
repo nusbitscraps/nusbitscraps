@@ -1,0 +1,38 @@
+{
+  "AY23": [
+    {
+      "department": "Technical",
+      "role": "President",
+      "name": "Alice Tan",
+      "photo": "img/exco/AY23/alice.jpg"
+    },
+    {
+      "department": "Technical",
+      "role": "Vice President",
+      "name": "Bob Lim",
+      "photo": "img/exco/AY23/bob.jpg"
+    },
+    {
+      "department": "Design",
+      "role": "Lead Designer",
+      "name": "Cathy Ng",
+      "photo": "img/exco/AY23/cathy.jpg"
+    }
+  ],
+  "AY24": [
+    {
+      "department": "Technical",
+      "role": "President",
+      "name": "Daniel Wong",
+      "photo": "img/exco/AY24/daniel.jpg"
+    }
+  ],
+  "AY25": [
+    {
+      "department": "Technical",
+      "role": "President",
+      "name": "Eve Lim",
+      "photo": "img/exco/AY25/eve.jpg"
+    }
+  ]
+}

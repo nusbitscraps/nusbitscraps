@@ -1,0 +1,23 @@
+{
+  "AY23": {
+    "description": "Placeholder for AY23 sessions. Add more details here.",
+    "images": [
+      "img/sessions/AY23/session1.jpg",
+      "img/sessions/AY23/session2.jpg"
+    ]
+  },
+  "AY24": {
+    "description": "Placeholder for AY24 sessions. Add more details here.",
+    "images": [
+      "img/sessions/AY24/session1.jpg",
+      "img/sessions/AY24/session2.jpg"
+    ]
+  },
+  "AY25": {
+    "description": "Placeholder for AY25 sessions. Add more details here.",
+    "images": [
+      "img/sessions/AY25/session1.jpg",
+      "img/sessions/AY25/session2.jpg"
+    ]
+  }
+}
