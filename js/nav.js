@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         a.textContent = item.title;
 
         // Highlight current page
-        if (window.location.pathname.endsWith(item.url)) {
+        if (window.location.pathname.endsWith(item.url) || (window.location.pathname === '/' && item.url === 'index.html')) {
           a.classList.add('active');
         }
 

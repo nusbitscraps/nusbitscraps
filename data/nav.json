@@ -1,5 +1,6 @@
 [
-  {"title": "About", "url": "index.html"},
+  {"title": "Home", "url": "index.html"},
+  {"title": "About", "url": "about.html"},
   {"title": "Sessions", "url": "sessions.html"},
   {"title": "Hackathons", "url": "hackathons.html"},
   {"title": "Repair Sessions", "url": "repairs.html"},
